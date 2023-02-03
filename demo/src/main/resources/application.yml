@@ -1,0 +1,16 @@
+server:
+  port: 10101
+spring:
+#  r2dbc:
+#    url: r2dbc:pool:mariadb://localhost:3306
+#    username: root
+#    password: mariadb
+#    pool:
+#      enabled: true
+
+
+
+
+logging:
+  level:
+    org.springframework.r2dbc.core: debug
